@@ -65,10 +65,12 @@ source ~/.bashrc
 
 ### Build and Execute Your Environment:
 
+**Build:**
 ```console
 colcon build
 ```
 
+**Execute:**
 ```console
 source ~/ros2_ws/install/setup.bash
 ```
