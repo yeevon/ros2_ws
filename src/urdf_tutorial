@@ -1,0 +1,15 @@
+NOTES
+
+URDF Preview
+
+Install the following in case it is not yet installed.
+
+sudo apt install ros-jazzy-urdf-tutorial
+source /opt/ros/jazzy/setup.bash
+
+NOTE---- If you get an error when running this command, try with absolute path like
+model:=/home/folder/my_robot.urdf
+
+!! Use the auto-competetion as help and also to avoid making typos also use "pwd" to look at absolute path to urdf file.
+
+

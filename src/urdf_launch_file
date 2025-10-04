@@ -1,0 +1,96 @@
+You might need to install xacro with:
+
+sudo apt install ros-jazzy-xacro
+
+
+
+
+--ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro my_robot.urdf)"
+
+
+
+
+might need to install
+
+sudo apt install ros-jazzy-joint-state-publisher-gui
+
+--ros2 run joint_state_publisher_gui joint_state_publisher_gui
+
+
+
+--ros2 run rviz2 rviz3
+
+
+
+Steps
+
+--mkdir ros2_ws
+--cd ros2_ws
+--mkdir src
+
+"should not be necessary"
+--sudo apt install ros-dev-tools
+
+--colcon build
+--source install/setup.bash
+--gedit ~/.bashrc
+
+at the bottom of the file you need to source your new ros2 workspace
+
+add
+"source ~/ros2_ws/install/setup.bash"
+
+inside the source folder lets build a package now
+--ros2 pkg create my_robot_description
+--cd my_robot_description
+--rm -rf include/ src/
+--mkdir urdf
+
+lets move our urdf robot inside the urdf directory we created
+
+--cd 
+--mv my_robot.urdf ros2_ws/src/my_robot_description/urdf/
+
+go back to the src directory of our new package
+--cd ros2_ws/src
+
+open visual studio code
+--code .
+
+inside the CMakeList.txt file lets install the urdf
+Add the following under "find_package()"
+
+--install(
+  DIRECTORY urdf
+  DESTINATION share/${PROJECT_NAME}/
+)
+
+go back to the workspace and do another build
+--colcon build
+
+lets create a launch file now
+
+create a "launch" directory inside your robot description package at the same level of the urdf directory.
+
+modify the CMakeList.txt fiel and add the launch directory.
+
+--install(
+  DIRECTORY urdf launch
+  DESTINATION share/${PROJECT_NAME}/
+)
+
+create a new file inside the launch directory named display.launch.xml
+
+Lets conver the urdf to sacro format for more complexity and prep for gazebo
+
+add .xacro at the end of the .urdf file name
+
+
+Inertial -- its important to understand
+
+formulas etc...  there is a good wikipedia page.
+
+
+
+
+-- ros2 run teleop_twist_keyboard teleop_twist_keyboard
