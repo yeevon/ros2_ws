@@ -77,7 +77,7 @@ colcon build
 source ~/ros2_ws/install/setup.bash
 ```
 
-## Run a control node to drive the robot:
+## Run a control node to drive a robot:
 ```console
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
