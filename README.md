@@ -85,7 +85,7 @@ source ~/ros2_ws/install/setup.bash
 gz sim "$(ros2 pkg prefix my_robot_bringup)/share/my_robot_bringup/worlds/waterworld.sdf" -v4
 ```
 
-Now try again:
+**Now try again:**
 
 ```console
 ros2 launch my_robot_bringup my_robot_gazebo.launch.xml
