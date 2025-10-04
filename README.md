@@ -77,6 +77,13 @@ colcon build
 source ~/ros2_ws/install/setup.bash
 ```
 
+## Run a control node to drive the robot:
+```console
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+**Note:** In order to conmtrol the robot, **the terminal window running the teleop control node must be selected** rather than the Gazebo simulation window.
+
+
 # Common Issues
 
 ## If Gazebo doesn't open when attempting to open a world from __my_robot_gazebo.launch.xml__:
