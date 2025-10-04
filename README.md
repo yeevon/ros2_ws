@@ -56,10 +56,18 @@ source /opt/ros/jazzy/setup.bash
 ## 4) If you are getting 
 
 
-# Important Notes
+# Important Commands
+
+### Reload the Shell:
 
 ```console
 source ~/.bashrc
+```
+
+### Source your environment:
+
+```console
+source /opt/ros/jazzy/setup.bash
 ```
 
 
