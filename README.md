@@ -91,7 +91,7 @@ Now try again:
 ros2 launch my_robot_bringup my_robot_gazebo.launch.xml
 ```
 
-**Note:** In the two above commands, a world file called **_waterworld.sdf_** is used in the command.  If the world that you are trying to open **_waterworld.sdf_**, then **replace __waterworld.sdf_** with **the name of youe world file**.
+**Note:** A file called **_waterworld.sdf_** is referenced in the two above commands.  If the world that you are trying to open **_waterworld.sdf_**, then **replace __waterworld.sdf_** with **the name of youe world file** when entering these commands.
 
 ## Sources:
 
