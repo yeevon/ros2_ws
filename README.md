@@ -77,6 +77,15 @@ colcon build
 source ~/ros2_ws/install/setup.bash
 ```
 
+# Common Issues
+
+## If Gazebo doesn't open when ytou try to open from your:
+
+```console
+gz sim "$(ros2 pkg prefix my_robot_bringup)/share/my_robot_bringup/worlds/waterworld.sdf" -v4
+```
+
+** Note:** Here, a world file called **_waterworld.sdf_** is used in the command.  If the world that you are trying to open **_waterworld.sdf_**, then **replace __waterworld.sdf_** with **the name of youe world file**.
 
 ## Sources:
 
