@@ -1,6 +1,6 @@
 # SETUP INSTRUCTIONS
 
-If your workspace directory is not called **ros2_ws**, then **replace ros2_ws** with **the name of your workspace directory** throughout these commands and code segments. 
+If your **workspace directory is not called ros2_ws**, then **replace ros2_ws** with **the name of your workspace directory** throughout these commands and code segments. 
 
 ## 1)  Create a GZ_SIM_SYSTEM_PLUGIN_PATH system variable
 
