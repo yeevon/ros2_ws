@@ -63,10 +63,14 @@ source /opt/ros/jazzy/setup.bash
 source ~/.bashrc
 ```
 
-### Source your environment:
+### Build and Execute Your Environment:
 
 ```console
-source /opt/ros/jazzy/setup.bash
+colcon build
+```
+
+```console
+source ~/ros2_ws/install/setup.bash
 ```
 
 
