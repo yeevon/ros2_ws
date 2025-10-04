@@ -104,7 +104,7 @@ source ~/ros2_ws/install/setup.bash
 ros2 launch my_robot_bringup my_robot_gazebo.launch.xml
 ```
 
-**Note:** A file called **_waterworld.sdf_** is referenced in the above commands.  If the world that you are trying to open **_waterworld.sdf_**, then **replace __waterworld.sdf_** with **the name of youe world file** when entering these commands.
+**Note:** A file called **_waterworld.sdf_** is referenced in the above commands.  If the world that you are trying to open is not named **_waterworld.sdf_**, then **replace __waterworld.sdf_** with **the name of youe world file** when entering these commands.
 
 ## Sources:
 
