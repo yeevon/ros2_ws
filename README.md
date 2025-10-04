@@ -85,6 +85,12 @@ source ~/ros2_ws/install/setup.bash
 gz sim "$(ros2 pkg prefix my_robot_bringup)/share/my_robot_bringup/worlds/waterworld.sdf" -v4
 ```
 
+Now try again:
+
+```console
+ros2 launch my_robot_bringup my_robot_gazebo.launch.xml
+```
+
 **Note:** Here, a world file called **_waterworld.sdf_** is used in the command.  If the world that you are trying to open **_waterworld.sdf_**, then **replace __waterworld.sdf_** with **the name of youe world file**.
 
 ## Sources:
