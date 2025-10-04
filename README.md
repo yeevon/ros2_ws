@@ -48,10 +48,11 @@ Now the following code:
 
 in your SDF world file will load the water_towel model from the /models directory into your world.
 
-## 3) Download Raul's package
+## 3) Make sure that the following line is included in your .bashrc file:
 
-https://github.com/r00stuff/URDF-Demo/tree/main
-
+```console
+source /opt/ros/jazzy/setup.bash
+```
 
 ## Sources:
 
