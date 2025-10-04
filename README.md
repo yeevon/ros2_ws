@@ -59,13 +59,13 @@ source /opt/ros/jazzy/setup.bash
 
 # Important Commands
 
-### Reload the Shell:
+## Reload the Shell:
 
 ```console
 source ~/.bashrc
 ```
 
-### Build and Execute Your Environment:
+## Build and Execute Your Environment:
 
 **Build:**
 ```console
