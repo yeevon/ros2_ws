@@ -79,7 +79,7 @@ source ~/ros2_ws/install/setup.bash
 
 # Common Issues
 
-## If Gazebo doesn't open when ytou try to open from your:
+## If Gazebo doesn't open when attempting to open a world from your __my_robot_gazebo.launch.xml__ file:
 
 ```console
 gz sim "$(ros2 pkg prefix my_robot_bringup)/share/my_robot_bringup/worlds/waterworld.sdf" -v4
