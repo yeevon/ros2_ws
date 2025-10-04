@@ -53,6 +53,15 @@ in your SDF world file will load the water_towel model from the /models director
 ```console
 source /opt/ros/jazzy/setup.bash
 ```
+## 4) If you are getting 
+
+
+# Important Notes
+
+```console
+source ~/.bashrc
+```
+
 
 ## Sources:
 
