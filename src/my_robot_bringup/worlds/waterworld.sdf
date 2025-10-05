@@ -394,6 +394,31 @@
       </link>
     </model>
 
+    <model name="tidal_island_segment_1_ramp">
+      <static>true</static>
+      <link name="link">
+        <pose>33 -8 -0.1 0 0.4 0</pose>
+        <collision name="col"><geometry><box><size>3 10 3</size></box></geometry></collision>
+        <visual name="vis">
+          <geometry><box><size>3 10 3</size></box></geometry>
+          <material>
+            <ambient>0.35 0.35 0.35 1</ambient>
+            <diffuse>0.45 0.45 0.45 1</diffuse>
+            <!-- This tag and its contents add texture (an image) to our models -->
+            <pbr>
+              <metal>
+                <!-- Point to your image -->
+                <albedo_map>model://textures/stone_textures/stone_wall_seamless_1x1.jpg</albedo_map>
+                <!-- Optional: roughness/metalness for a matte, non-metal look -->
+                <roughness>0.9</roughness>
+                <metalness>0.0</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+      </link>
+    </model>
+
     <!-- floor with realistic surface params -->
     <model name="tidal_island_segment_1_floor_model">
       <static>true</static>
@@ -458,7 +483,7 @@
             <pbr>
               <metal>
                 <!-- Point to your image -->
-                <albedo_map>model://textures/stone_textures/stone_wall_seamless_1x1.jpg</albedo_map>
+                <albedo_map>model://textures/stone_textures/stone_wall_seamless_4x1.jpg</albedo_map>
                 <!-- Optional: roughness/metalness for a matte, non-metal look -->
                 <roughness>0.9</roughness>
                 <metalness>0.0</metalness>
@@ -483,7 +508,7 @@
             <pbr>
               <metal>
                 <!-- Point to your image -->
-                <albedo_map>model://textures/stone_textures/stone_wall_seamless_1x1.jpg</albedo_map>
+                <albedo_map>model://textures/stone_textures/stone_wall_seamless_4x1.jpg</albedo_map>
                 <!-- Optional: roughness/metalness for a matte, non-metal look -->
                 <roughness>0.9</roughness>
                 <metalness>0.0</metalness>
@@ -508,7 +533,7 @@
             <pbr>
               <metal>
                 <!-- Point to your image -->
-                <albedo_map>model://textures/stone_textures/stone_wall_seamless_1x1.jpg</albedo_map>
+                <albedo_map>model://textures/stone_textures/stone_wall_seamless_4x1.jpg</albedo_map>
                 <!-- Optional: roughness/metalness for a matte, non-metal look -->
                 <roughness>0.9</roughness>
                 <metalness>0.0</metalness>
@@ -922,7 +947,7 @@
             <pbr>
               <metal>
                 <!-- Point to your image -->
-                <albedo_map>model://textures/stone_textures/stone_wall_seamless_1x1.jpg</albedo_map>
+                <albedo_map>model://textures/stone_textures/stone_wall_seamless_1x3.jpg</albedo_map>
                 <!-- Optional: roughness/metalness for a matte, non-metal look -->
                 <roughness>0.9</roughness>
                 <metalness>0.0</metalness>
@@ -1290,7 +1315,7 @@
             <pbr>
               <metal>
                 <!-- Point to your image -->
-                <albedo_map>model://textures/stone_textures/stone_wall_seamless_1x1.jpg</albedo_map>
+                <albedo_map>model://textures/stone_textures/stone_wall_seamless_4x1.jpg</albedo_map>
                 <!-- Optional: roughness/metalness for a matte, non-metal look -->
                 <roughness>0.9</roughness>
                 <metalness>0.0</metalness>
@@ -1315,7 +1340,7 @@
             <pbr>
               <metal>
                 <!-- Point to your image -->
-                <albedo_map>model://textures/stone_textures/stone_wall_seamless_1x1.jpg</albedo_map>
+                <albedo_map>model://textures/stone_textures/stone_wall_seamless_4x1.jpg</albedo_map>
                 <!-- Optional: roughness/metalness for a matte, non-metal look -->
                 <roughness>0.9</roughness>
                 <metalness>0.0</metalness>
@@ -1465,7 +1490,7 @@
             <pbr>
               <metal>
                 <!-- Point to your image -->
-                <albedo_map>model://textures/stone_textures/stone_wall_seamless_1x1.jpg</albedo_map>
+                <albedo_map>model://textures/stone_textures/stone_wall_seamless_4x1.jpg</albedo_map>
                 <!-- Optional: roughness/metalness for a matte, non-metal look -->
                 <roughness>0.9</roughness>
                 <metalness>0.0</metalness>
@@ -1615,7 +1640,7 @@
             <pbr>
               <metal>
                 <!-- Point to your image -->
-                <albedo_map>model://textures/stone_textures/stone_wall_seamless_1x1.jpg</albedo_map>
+                <albedo_map>model://textures/stone_textures/stone_wall_seamless_4x1.jpg</albedo_map>
                 <!-- Optional: roughness/metalness for a matte, non-metal look -->
                 <roughness>0.9</roughness>
                 <metalness>0.0</metalness>
@@ -1790,7 +1815,7 @@
             <pbr>
               <metal>
                 <!-- Point to your image -->
-                <albedo_map>model://textures/stone_textures/stone_wall_seamless_1x1.jpg</albedo_map>
+                <albedo_map>model://textures/stone_textures/stone_wall_seamless_4x1.jpg</albedo_map>
                 <!-- Optional: roughness/metalness for a matte, non-metal look -->
                 <roughness>0.9</roughness>
                 <metalness>0.0</metalness>
@@ -1890,7 +1915,7 @@
             <pbr>
               <metal>
                 <!-- Point to your image -->
-                <albedo_map>model://textures/grass_textures/green_grass_seamless.jpg</albedo_map>
+                <albedo_map>model://textures/grass_textures/green_grass_seamless_8x9.png</albedo_map>
                 <!-- Optional: roughness/metalness for a matte, non-metal look -->
                 <roughness>0.9</roughness>
                 <metalness>0.0</metalness>
@@ -1915,7 +1940,7 @@
             <pbr>
               <metal>
                 <!-- Point to your image -->
-                <albedo_map>model://textures/stone_textures/stone_wall_seamless_1x1.jpg</albedo_map>
+                <albedo_map>model://textures/stone_textures/stone_wall_seamless_1x3.jpg</albedo_map>
                 <!-- Optional: roughness/metalness for a matte, non-metal look -->
                 <roughness>0.9</roughness>
                 <metalness>0.0</metalness>
@@ -1926,7 +1951,7 @@
       </link>
     </model>
 
-    <model name="tower_top_ramp_left_2">
+    <model name="tower_top_ramp_right_1">
       <static>true</static>
       <link name="link">
         <pose>166.85 -31 43.97 0 -0.02 0</pose>
@@ -1940,7 +1965,7 @@
             <pbr>
               <metal>
                 <!-- Point to your image -->
-                <albedo_map>model://textures/stone_textures/stone_wall_seamless_1x1.jpg</albedo_map>
+                <albedo_map>model://textures/stone_textures/stone_wall_seamless_1x3.jpg</albedo_map>
                 <!-- Optional: roughness/metalness for a matte, non-metal look -->
                 <roughness>0.9</roughness>
                 <metalness>0.0</metalness>
