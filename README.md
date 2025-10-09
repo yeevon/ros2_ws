@@ -107,6 +107,7 @@ colcon build
 **Execute:**
 ```console
 source ~/ros2_ws/install/setup.bash
+```
 
 **Now try launching again:**
 
