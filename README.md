@@ -41,7 +41,7 @@ export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:~/ros2_ws/src/my_gz_worlds/wor
 
 Save changes to the .bashrc file and close the editor.
 
-Now the following code:
+Now the depicted below:
 
 ```console
 <include>
