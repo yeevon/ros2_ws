@@ -84,7 +84,7 @@ source ~/ros2_ws/install/setup.bash
 ```console
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
-**Note:** In order to conmtrol the robot, **the terminal window running the teleop control node must be selected** rather than the Gazebo simulation window.
+**Note:** In order to control the robot, **the terminal window running the teleop control node must be selected** rather than the Gazebo simulation window.
 
 
 # Common Issues
