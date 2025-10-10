@@ -128,6 +128,13 @@ ros2 launch my_robot_bringup my_robot_gazebo.launch.xml
 
 **Note:** A file called **_waterworld.sdf_** is referenced in the above commands.  If the world that you are trying to open is not named **_waterworld.sdf_**, then replace **_waterworld.sdf_** with **the name of youe world file** when entering these commands.
 
+## If Gazebo opens but does not load your robot:
+
+**Open** your **__my_robot_descrioption__* directory and **open** the document called **__CMakeLists.txt__**
+
+**Make sure** that under the **__install (__** line of the **__CMakeLists.txt__** document, you see **the names of each directory** in the **__my_robot_descrioption__** directory.  If each directory name is not listed, **add it.** 
+
+
 ## Sources:
 
 All downloaded objects were created by OpenRobotics and downloaded from <a href="https://app.gazebosim.org/OpenRobotics" target="_blank">https://app.gazebosim.org/OpenRobotics</a>
