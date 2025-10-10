@@ -36,7 +36,7 @@ sudo gedit .bashrc
 
 Now paste the following at the end of the .bashrc file:
 ```console
-export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:~/ros2_ws/src/my_gz_worlds/worlds:~/ros2_ws/src/my_gz_worlds/models
+export GZ_SIM_RESOURCE_PATH=$HOME/ros2_ws/src/my_robot_bringup/models:$GZ_SIM_RESOURCE_PATH
 ```
 
 Save changes to the .bashrc file and close the editor.
