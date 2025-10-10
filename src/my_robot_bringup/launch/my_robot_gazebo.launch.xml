@@ -8,11 +8,10 @@
     </node>
 
     <include file="$(find-pkg-share ros_gz_sim)/launch/gz_sim.launch.py">
-        <arg name="gz_args" value="$(find-pkg-share my_robot_bringup)/worlds/waterworld.sdf -r" />
-        <!-- <arg name="gz_args" value="empty.sdf -r" /> -->
+        <arg name="gz_args" value="$(find-pkg-share my_robot_bringup)/worlds/waterworld.sdf" /> <!-- add the -r if you want the world to start automatically when opened. /> -->
     </include>
 
-    <node pkg="ros_gz_sim" exec="create" args="-topic robot_description" />
+    <node pkg="ros_gz_sim" exec="create" args="-topic robot_description -name my_robot -x 55.0 -y -8.0 -z 2 -Y -1.57" />
 
     <node pkg="ros_gz_bridge" exec="parameter_bridge">
         <param name="config_file" value="$(var gazebo_config_path)" />
