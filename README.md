@@ -53,16 +53,22 @@ Now the depicted below:
 
 in your SDF world file will load the water_towel model from the /models directory into your world.
 
-## 3) Make sure that the following line is included in your .bashrc file:
+## 3) Make sure that the following lines are included in your .bashrc file:
 
 ```console
 source /opt/ros/jazzy/setup.bash
 ```
 
-## 4) Make sure that the following line is included in your .bashrc file:
-
 ```console
 source ~/ros2_ws/install/setup.bash
+```
+
+```console
+export GZ_SIM_SYSTEM_PLUGIN_PATH="/opt/ros/jazzy/lib:${GZ_SIM_SYSTEM_PLUGIN_PATH}"
+```
+
+```console
+export GZ_SIM_RESOURCE_PATH=$HOME/ros2_ws/src/my_robot_bringup/models:$GZ_SIM_RESOURCE_PATH
 ```
 
 # Important Commands
