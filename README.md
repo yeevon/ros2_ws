@@ -12,7 +12,7 @@
 Open the .bashrc file again by typing the following into your terminal from your home directory:
 
 ```console
-sudo gedit .bashrc
+sudo gedit ~/.bashrc
 ```
 
 Now paste the following at the end of the .bashrc file:
@@ -31,7 +31,7 @@ Save changes to the .bashrc file and close the editor.
 Open your .bashrc file by typing the following into your terminal from your home directory:
 
 ```console
-gedit ~/.bashrc
+sudo gedit ~/.bashrc
 ```
 
 Now paste the following at the end of the .bashrc file:
