@@ -59,6 +59,11 @@ in your SDF world file will load the water_towel model from the /models director
 source /opt/ros/jazzy/setup.bash
 ```
 
+## 4) Make sure that the following line is included in your .bashrc file:
+
+```console
+source ~/ros2_ws/install/setup.bash
+```
 
 # Important Commands
 
