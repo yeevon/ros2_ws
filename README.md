@@ -4,6 +4,8 @@
 
 **Note:** A file called **_waterworld.sdf_** is referenced throughout this document.  If the world that you are trying to open is not named **_waterworld.sdf_**, then replace **_waterworld.sdf_** with **the name of your world file** when entering these commands.
 
+git clone https://github.com/AEmilioDiStefano/ros2_ws.git
+
 
 ## 1)  Create a GZ_SIM_SYSTEM_PLUGIN_PATH system variable
 
