@@ -6,8 +6,13 @@
   </a>
 </p>
 
-<details>
-<summary><h2>🧭 Dual-Boot Windows + Ubuntu (Step-by-Step)</h2></summary>
+<style>
+details summary {
+  cursor: pointer;
+  list-style: revert; /* restores the default arrow */
+}
+</style>
+<summary><h2> 🧭 Dual-Boot Windows + Ubuntu (Step-by-Step)</h2></summary>
 
 ### What you need
 
