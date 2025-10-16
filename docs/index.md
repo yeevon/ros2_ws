@@ -6,23 +6,9 @@
   </a>
 </p>
 
-<!--
-<style>
-details summary {
-  cursor: pointer;
-  list-style: revert; /* restores the default arrow */
-  padding: 0.25em 0;
-}
-details summary h2 {
-  display: inline; /* prevents h2 from breaking line and hiding arrow */
-  font-size: 1.2em;
-  margin-left: 0.25em;
-}
-</style>
--->
-
 <details>
-<summary><h2> 🧭 Dual-Boot Windows + Ubuntu (Step-by-Step)</h2></summary>
+<summary style="cursor:pointer; list-style: revert; padding: 0.25em 0;">
+    <h2 style="display:inline; font-size:1.2em; margin-left:0.25em;">🧭 Dual-Boot Windows + Ubuntu (Step-by-Step)</h2></summary>
 
 ### What you need
 
