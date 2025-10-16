@@ -1,5 +1,5 @@
 # SNHU Wired Minds - Robotics Cohort
-
+<link rel="stylesheet" href="assets/css/details.css">
 <p align="center">
   <a href="https://youtu.be/MPAcc8LaE6M" target="_blank">
     <img src="./dualBoot.png" width="50%" alt="Watch the Dual Boot video">
@@ -7,9 +7,7 @@
 </p>
 
 <details>
-<summary>🧭 <strong>Dual-Boot Windows + Ubuntu (Step-by-Step)</strong></summary>
-
-<br>
+<summary>🧭 Dual-Boot Windows + Ubuntu (Step-by-Step)</summary>
 
 ### What you need
 
