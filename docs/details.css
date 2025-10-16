@@ -1,0 +1,10 @@
+details summary {
+  cursor: pointer;
+  list-style: revert; /* restores arrow */
+  padding: 0.25em 0;
+}
+details summary h2 {
+  display: inline;
+  font-size: 1.2em;
+  margin-left: 0.25em;
+}
