@@ -7,8 +7,9 @@
 </p>
 
 <details>
-<summary style="cursor:pointer; list-style: revert; padding: 0.25em 0;">
-    <h2 style="display:inline; font-size:1.2em; margin-left:0.25em;">🧭 Dual-Boot Windows + Ubuntu (Step-by-Step)</h2></summary>
+<summary>🧭 <strong>Dual-Boot Windows + Ubuntu (Step-by-Step)</strong></summary>
+
+<br>
 
 ### What you need
 
