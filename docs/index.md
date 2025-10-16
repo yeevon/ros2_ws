@@ -7,8 +7,9 @@
 </p>
 
 <details>
-<summary>🧭 Dual-Boot Windows + Ubuntu (Step-by-Step)</summary>
-
+<summary> 🧭 Dual-Boot Windows + Ubuntu (Step-by-Step) </summary>
+<div markdown="1">
+  
 ### What you need
 
 - A USB drive ≥ 8 GB
