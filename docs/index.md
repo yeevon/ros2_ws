@@ -1,5 +1,11 @@
+---
+layout: default
+title: SNHU Wired Minds - Robotics Cohort
+---
+
 # SNHU Wired Minds - Robotics Cohort
 <link rel="stylesheet" href="assets/css/details.css">
+
 <p align="center">
   <a href="https://youtu.be/MPAcc8LaE6M" target="_blank">
     <img src="./dualBoot.png" width="50%" alt="Watch the Dual Boot video">
@@ -8,9 +14,9 @@
 
 <details>
 <summary>🧭 Dual-Boot Windows + Ubuntu (Step-by-Step)</summary>
-  
+
 <div markdown="1">
-  
+
 ### What you need
 
 - A USB drive ≥ 8 GB
@@ -108,4 +114,5 @@ Optional quick setup:
 
 #### Want to change default OS later? In Ubuntu: sudo nano /etc/default/grub (set GRUB_DEFAULT), then sudo update-grub.
 
+</div>
 </details>
