@@ -4,7 +4,7 @@ title: SNHU Wired Minds - Robotics Cohort
 ---
 
 # SNHU Wired Minds - Robotics Cohort
-<link rel="stylesheet" href="assets/css/details.css">
+<link rel="stylesheet" href="details.css">
 
 <p align="center">
   <a href="https://youtu.be/MPAcc8LaE6M" target="_blank">
