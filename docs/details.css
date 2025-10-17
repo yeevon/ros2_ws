@@ -1,10 +1,18 @@
+summary::-webkit-details-marker { display: none !important; }
+summary::marker { content: ""; }
+
 details summary {
   cursor: pointer;
-  list-style: revert; /* restores arrow */
-  padding: 0.25em 0;
+  padding: .25em 0;
+  position: relative;
 }
-details summary h2 {
-  display: inline;
-  font-size: 1.2em;
-  margin-left: 0.25em;
+details summary::before {
+  content: "▶";
+  display: inline-block;
+  width: 1em;
+  margin-right: .25em;
+  transition: transform .15s ease;
+}
+details[open] summary::before {
+  content: "▼";
 }
