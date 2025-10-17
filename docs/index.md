@@ -13,7 +13,8 @@ title: SNHU Wired Minds - Robotics Cohort
 </p>
 
 <details>
-# 🧭 Dual-Boot Windows + Ubuntu (Step-by-Step)
+
+<summary>🧭 Dual-Boot Windows + Ubuntu (Step-by-Step)</summary>
 
 <div markdown="1">
 
